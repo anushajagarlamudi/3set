@@ -8,7 +8,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
-				int n=sc.nextInt();
+	        int n=sc.nextInt();
 		int a[]=new int[n];
 		int min;
 		for(int i=0;i<n;i++)
@@ -18,7 +18,7 @@ class Ideone
 		min=a[0];
 		for(int i=0;i<n;i++)
 		{
-			if(min<a[i])
+			if(min>a[i])
 		    {
 		    	  min=a[i];
 		    }
